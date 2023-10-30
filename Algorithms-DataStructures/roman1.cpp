@@ -1,3 +1,9 @@
+/*
+ * Demonstration:
+ * Enter a decimal number: 1999
+ * Roman: MCMXCIX
+ */
+
 #include <iostream>
 #include <stdlib.h>
 using namespace std;
