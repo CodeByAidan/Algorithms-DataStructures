@@ -21,18 +21,16 @@ Roman::Roman(unsigned n)
 		40, 10, 9, 5, 4, 1 }, len = sizeof(v) / sizeof(*v);
 	const char *r[] = {"M", "CM", "D", "CD", "C", "XC", "L",
 		"XL", "X", "IX", "V", "IV", "I"};
-	int pos = 0;
-	for (int i=0; i<len; i++)
+	unsigned number = n; strcpy(a, "");
+	for (int i = 0; i < len; i++)
 	{	while (v[i] <= n)
-		{	if (pos + 3 > L) 
-			{	cout << " Number too large.\n"; exit(1);
+		{	if (strlen(a) + strlen(r[i]) >= L)
+			{	cout << "Number too large.\n"; exit(1);
 			}
-			a[pos++] = r[i][0];
-			if (r[i][1]) a[pos++] = r[i][1];
+			strcat(a, r[i]);
 			n -= v[i];
 		}
 	}
-	a[pos] = '\0';
 }
 
 int main()
