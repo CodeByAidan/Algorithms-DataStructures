@@ -4,7 +4,7 @@
 
 class ints0 {
 public:
-	ints0() { p = NULL; length = 0; }
+	ints0() { p = nullptr; length = 0; }
 	ints0(int* a, int n);
 	ints0(const ints0& r);
 	~ints0() { delete[]p; }

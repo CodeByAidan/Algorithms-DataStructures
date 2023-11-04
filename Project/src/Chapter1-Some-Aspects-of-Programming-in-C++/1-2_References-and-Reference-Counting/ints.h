@@ -6,7 +6,7 @@ class ints {
 public:
 	ints()
 	{	pRep = new intsrep;
-		pRep->p = NULL;
+		pRep->p = nullptr;
 		pRep->length = pRep->refcount = 1;
 	}
 
@@ -35,5 +35,7 @@ public:
 	}
 	int len()const {return pRep->length;}
 private:
-	struct intsrep {int* p, length, refcount;} *pRep;
+	struct intsrep {int* p;
+		int length;
+		int refcount;} *pRep;
 };
