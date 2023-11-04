@@ -1,0 +1,1 @@
+1.2 Write a program that reads *n*, followed by a sequence of positive integers $a_1, a_2, \dots, a_n$, followed by zero, and prints these positive integers in reverse order, $a_n, a_{n - 1}, \dots, d_1$. Your program must not impose a limit on *n*. Show that, with the help of a recursive function, it is possible to do this without suing an array.

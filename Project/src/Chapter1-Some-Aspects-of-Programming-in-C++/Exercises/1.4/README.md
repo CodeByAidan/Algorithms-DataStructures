@@ -1,0 +1,1 @@
+1.4 Demonstrate exception handling, using the keywords *try*, *throw* and *catch*, in a program of your own. For example, you can write a function in which a division occurs, throwing an exception in case of division by zero.
