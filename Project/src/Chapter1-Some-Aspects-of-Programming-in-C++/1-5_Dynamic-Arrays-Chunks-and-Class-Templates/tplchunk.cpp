@@ -1,11 +1,10 @@
 // tplchunk: Variable number of float numbers stored,
 //			 using a class template.
 #include <iostream>
-#include <stdlib.h>
 
 using namespace std;
 
-int ChunkSize = 4; // May be larger in practice
+const int ChunkSize = 4; // May be larger in practice
 
 template <class T>
 class list {
@@ -19,7 +18,8 @@ public:
 	}
 	int GetLen()const { return len; }
 private:
-	int len, LEN; // Logical and physical lengths
+	int len;
+	int LEN; // Logical and physical lengths
 	T* a;
 };
 
@@ -35,18 +35,18 @@ void list<T>::AddItem(T x)
 	a[len++] = x;
 }
 
-//int main()
-//{
-//	list<float> L;
-//	float x;
-//	int n;
-//	cout << "Enter nonzero numbers, the last one\n"
-//			"followed by 0:\n";
-//	while (cin >> x, x != 0) L.AddItem(x);
-//	n = L.GetLen();
-//	cout << "The following " << n <<
-//			" nonzero numbers have been read:\n";
-//	for (int i = 0; i < n; i++) cout << L[i] << " ";
-//	cout << endl;
-//	return 0;
-//}
+int main()
+{
+	list<float> L;
+	float x;
+	int n;
+	cout << "Enter nonzero numbers, the last one\n"
+			"followed by 0:\n";
+	while (cin >> x, x != 0) L.AddItem(x);
+	n = L.GetLen();
+	cout << "The following " << n <<
+			" nonzero numbers have been read:\n";
+	for (int i = 0; i < n; i++) cout << L[i] << " ";
+	cout << endl;
+	return 0;
+}
