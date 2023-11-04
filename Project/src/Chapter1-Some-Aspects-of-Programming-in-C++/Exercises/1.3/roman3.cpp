@@ -7,16 +7,16 @@
 
 using namespace std;
 
-class FromRoman {
+class __attribute__((unused)) FromRoman {
 public:
-	FromRoman(const string& s);
+	__attribute__((unused)) explicit FromRoman(const string& s);
 	int number;
 
 private:
-	int val(char ch);
+	static int val(char ch) ;
 };
 
-FromRoman::FromRoman(const string& s) {
+__attribute__((unused)) FromRoman::FromRoman(const string& s) {
 	number = 0;
 	regex romanRegex(
 		R"(^(M{0,3})(C(?:D|M)|D?C{0,3})(X(?:L|C)|L?X{0,3})(I(?:V|X)|V?I{0,3})$)");
@@ -26,7 +26,9 @@ FromRoman::FromRoman(const string& s) {
 		exit(1);
 	}
 
-	int i = 0, si, si1;
+	int i = 0;
+	int si;
+	int si1;
 	while (i < s.length()) {
 		si = val(s[i]);
 		if (i + 1 < s.length() && (si1 = val(s[i + 1])) > si) {
@@ -52,13 +54,12 @@ int FromRoman::val(char ch) {
 	}
 	cout << "Illegal character.\n";
 	exit(1);
-	return 0;
 }
 
-//int main() {
-//	string str;
-//	cout << "Enter a Roman numeral: ";
-//	cin >> str;
-//	cout << "Value: " << FromRoman(str).number << endl;
-//	return 0;
-//}
+int main() {
+	string str;
+	cout << "Enter a Roman numeral: ";
+	cin >> str;
+	cout << "Value: " << FromRoman(str).number << endl;
+	return 0;
+}
