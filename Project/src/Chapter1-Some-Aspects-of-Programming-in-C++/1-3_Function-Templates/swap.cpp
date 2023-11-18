@@ -1,3 +1,11 @@
+/*
+ * Demonstration:
+ * i=8  j=5
+ * January
+ * April
+ * P: (8, 2)
+ * Q: (3, 4)
+ */
 // swap: Demonstration of a swap template.
 #include <iostream>
 using namespace std;
