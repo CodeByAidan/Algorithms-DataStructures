@@ -1,3 +1,9 @@
+/*
+ * Demonstration:
+ * Smith
+ * Smith Smith
+ * Smith Johnson Smith Smith
+ */
 // Application, to be linked with charstring.cpp.
 #include "charstring.h"
 
