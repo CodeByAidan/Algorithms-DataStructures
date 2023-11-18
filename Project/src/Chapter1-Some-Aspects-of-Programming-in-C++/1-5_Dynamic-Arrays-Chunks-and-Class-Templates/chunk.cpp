@@ -1,3 +1,11 @@
+/*
+ * Demonstration:
+ * Enter nonzero numbers, the last one
+ * followed by 0:
+ * 1 2 3 4 5 6 7 8 9 10 20 30 40
+ * The following 13 nonzero numbers have been read:
+ * 1 2 3 4 5 6 7 8 9 10 20 30 40
+ */
 // chunk: Variable number of float numbers stored.
 
 #include <iostream>
