@@ -166,6 +166,10 @@
     <ClCompile Include="Project\src\Chapter1-Some-Aspects-of-Programming-in-C++\Exercises\1.2\ReversePrint.cpp" />
     <ClCompile Include="Project\src\Chapter1-Some-Aspects-of-Programming-in-C++\Exercises\1.3\roman3.cpp" />
     <ClCompile Include="Project\src\Chapter1-Some-Aspects-of-Programming-in-C++\Exercises\1.4\main.cpp" />
+    <ClCompile Include="Project\src\Chapter2-Arithmetic\2-4_Radix-Conversion-for-Output-Operations\buildnum.cpp" />
+    <ClCompile Include="Project\src\Chapter2-Arithmetic\2-6_Double-precision-Unsigned-Integers\dblulong.cpp" />
+    <ClCompile Include="Project\src\Chapter2-Arithmetic\2-7_Multi-precision-Arithmetic\lapp.cpp" />
+    <ClCompile Include="Project\src\Chapter2-Arithmetic\2-7_Multi-precision-Arithmetic\large.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Project\src\Chapter1-Some-Aspects-of-Programming-in-C++\Exercises\1.1\README.md" />
@@ -175,12 +179,17 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="CMakeLists.txt">
+      <DeploymentContent>true</DeploymentContent>
+      <FileType>Text</FileType>
+    </Text>
     <Text Include="LICENSE.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Project\src\Chapter1-Some-Aspects-of-Programming-in-C++\1-2_References-and-Reference-Counting\ints.h" />
     <ClInclude Include="Project\src\Chapter1-Some-Aspects-of-Programming-in-C++\Exercises\1.1\charstring.h" />
     <ClInclude Include="Project\src\Chapter1-Some-Aspects-of-Programming-in-C++\Exercises\1.2\ReversePrint.h" />
+    <ClInclude Include="Project\src\Chapter2-Arithmetic\2-7_Multi-precision-Arithmetic\large.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

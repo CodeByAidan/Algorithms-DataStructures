@@ -60,6 +60,18 @@
     <ClCompile Include="Project\src\Chapter1-Some-Aspects-of-Programming-in-C++\Exercises\1.4\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Project\src\Chapter2-Arithmetic\2-4_Radix-Conversion-for-Output-Operations\buildnum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\src\Chapter2-Arithmetic\2-6_Double-precision-Unsigned-Integers\dblulong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\src\Chapter2-Arithmetic\2-7_Multi-precision-Arithmetic\lapp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\src\Chapter2-Arithmetic\2-7_Multi-precision-Arithmetic\large.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
@@ -70,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="LICENSE.txt" />
+    <Text Include="CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Project\src\Chapter1-Some-Aspects-of-Programming-in-C++\1-2_References-and-Reference-Counting\ints.h">
@@ -79,6 +92,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Project\src\Chapter1-Some-Aspects-of-Programming-in-C++\Exercises\1.2\ReversePrint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\src\Chapter2-Arithmetic\2-7_Multi-precision-Arithmetic\large.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
