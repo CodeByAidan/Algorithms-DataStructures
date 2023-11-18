@@ -1,3 +1,8 @@
+/*
+ * Demonstration:
+ * Enter two numbers: 5 0
+ * Division by zero
+ */
 #include <iostream>
 #include <stdexcept>
 
