@@ -1,3 +1,15 @@
+/*
+ * Demonstration:
+ * See what happens if, somewhere in the input,
+ * you type some incorrect character.
+ * Enter 10 integers:
+ * 0 9 8 7 6 5 4 3 2 1
+ * 10 integers read. Average: 4.5
+ * Enter 12 integers:
+ * 1 2 3 x
+ * Only 3 integers read due to incorrect input.
+ * End of program.
+ */
 // except: Program demonstrating exception handling.
 #include <iostream>
 
