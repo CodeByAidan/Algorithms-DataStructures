@@ -1,3 +1,10 @@
+/*
+ * Demonstration:
+ * Enter a Roman number: MCMXCIX
+ * Value: 1999
+ * Enter a Roman number: MIX
+ * 1009
+ */
 // roman2: Evaluating a Roman numeral.
 
 #include <iostream>
