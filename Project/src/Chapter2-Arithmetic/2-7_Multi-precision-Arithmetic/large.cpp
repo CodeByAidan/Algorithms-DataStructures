@@ -1,9 +1,5 @@
 // large.cpp: Multi-precision integer arithmetic.
-#ifdef __GNUG__
-#include <strstrea.h>
-#else
 #include <strstream>
-#endif
 #include <iomanip>
 #include <stdlib.h>
 #include <limits.h>
