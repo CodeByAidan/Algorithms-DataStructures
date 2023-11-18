@@ -5,9 +5,10 @@ set(CMAKE_CXX_STANDARD 14)
 
 # Source files for your project
 set(SOURCE_FILES
-        Project/src/Chapter2-Arithmetic/2-7_Multi-precision-Arithmetic/lapp.cpp
+#        Project/src/Chapter2-Arithmetic/2-7_Multi-precision-Arithmetic/lapp.cpp
         Project/src/Chapter2-Arithmetic/2-7_Multi-precision-Arithmetic/large.h
         Project/src/Chapter2-Arithmetic/2-7_Multi-precision-Arithmetic/large.cpp
+        Project/src/Chapter2-Arithmetic/2-8_Binomial-Coefficients/binom.cpp
         #        Project/src/Chapter1-Some-Aspects-of-Programming-in-C++/1-1_Introduction/roman1.cpp
 #        Project/src/Chapter1-Some-Aspects-of-Programming-in-C++/1-2_References-and-Reference-Counting/ints.cpp
 #        Project/src/Chapter1-Some-Aspects-of-Programming-in-C++/1-2_References-and-Reference-Counting/ints.h
