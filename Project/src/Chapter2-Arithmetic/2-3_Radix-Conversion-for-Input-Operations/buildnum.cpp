@@ -1,3 +1,10 @@
+/*
+ * Demonstration:
+ * 5482     5482
+ * 7		15
+ * 123.457  0.875
+ * 123      123
+ */
 // buildnum: Building numbers out of characters
 #include <iostream>
 
