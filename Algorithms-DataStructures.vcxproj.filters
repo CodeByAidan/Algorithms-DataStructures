@@ -33,9 +33,6 @@
     <ClCompile Include="Project\src\Chapter1-Some-Aspects-of-Programming-in-C++\1-3_Function-Templates\swap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Project\src\Chapter1-Some-Aspects-of-Programming-in-C++\1-4_Recursive-Functions\roman2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Project\src\Chapter1-Some-Aspects-of-Programming-in-C++\1-5_Dynamic-Arrays-Chunks-and-Class-Templates\chunk.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -70,6 +67,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Project\src\Chapter2-Arithmetic\2-7_Multi-precision-Arithmetic\large.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\src\Chapter1-Some-Aspects-of-Programming-in-C++\1-4_Recursive-Functions\roman2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
