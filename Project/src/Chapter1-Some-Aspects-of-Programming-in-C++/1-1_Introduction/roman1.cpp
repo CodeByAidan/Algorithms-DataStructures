@@ -3,7 +3,7 @@
  * Enter a decimal number: 1999
  * Roman: MCMXCIX
  */
-
+//roman1: From decimal to Roman.
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <cstring>
