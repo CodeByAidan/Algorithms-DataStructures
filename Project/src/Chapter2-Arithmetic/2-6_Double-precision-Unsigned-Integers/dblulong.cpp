@@ -1,3 +1,10 @@
+/*
+ * Demonstration:
+ * 1 * ULONG_MAX: 00000000 ffffffff
+ * 2 * ULONG_MAX: 00000001 fffffffe
+ * 4 * ULONG_MAX: 00000003 fffffffc
+ * 8 * ULONG_MAX: 00000007 fffffff8
+ */
 // dblulong: Double-precision unsigned long arithmetic.
 #include <iostream>
 #include <iomanip>
