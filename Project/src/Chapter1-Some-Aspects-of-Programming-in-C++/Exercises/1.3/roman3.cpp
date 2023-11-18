@@ -1,3 +1,8 @@
+/*
+ * Demonstration:
+ * Enter a Roman numeral: VIXLMVV
+ * Illegal character.
+ */
 #include <ctype.h>
 
 #include <iomanip>
