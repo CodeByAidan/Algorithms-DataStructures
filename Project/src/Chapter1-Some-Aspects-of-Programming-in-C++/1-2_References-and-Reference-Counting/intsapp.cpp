@@ -1,3 +1,10 @@
+/*
+ * Demonstration:
+ * 3
+ * 3
+ * 3
+ * 5
+ */
 // intsapp: Application of class ints: dynamic arrays.
 
 #include "ints0.h"
