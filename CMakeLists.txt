@@ -8,7 +8,7 @@ set(SOURCE_FILES
         Project/src/Chapter2-Arithmetic/2-7_Multi-precision-Arithmetic/lapp.cpp
         Project/src/Chapter2-Arithmetic/2-7_Multi-precision-Arithmetic/large.h
         Project/src/Chapter2-Arithmetic/2-7_Multi-precision-Arithmetic/large.cpp
-#        Project/src/Chapter1-Some-Aspects-of-Programming-in-C++/1-1_Introduction/roman1.cpp
+        #        Project/src/Chapter1-Some-Aspects-of-Programming-in-C++/1-1_Introduction/roman1.cpp
 #        Project/src/Chapter1-Some-Aspects-of-Programming-in-C++/1-2_References-and-Reference-Counting/ints.cpp
 #        Project/src/Chapter1-Some-Aspects-of-Programming-in-C++/1-2_References-and-Reference-Counting/ints.h
 #        Project/src/Chapter1-Some-Aspects-of-Programming-in-C++/1-2_References-and-Reference-Counting/ints0.cpp
@@ -26,7 +26,7 @@ set(SOURCE_FILES
 #        Project/src/Chapter1-Some-Aspects-of-Programming-in-C++/Exercises/1.2/ReversePrint.h
 #        Project/src/Chapter1-Some-Aspects-of-Programming-in-C++/Exercises/1.3/roman3.cpp
 #        Project/src/Chapter1-Some-Aspects-of-Programming-in-C++/Exercises/1.4/main.cpp
-#        Project/src/Chapter2-Arithmetic/2-4_Radix-Conversion-for-Output-Operations/buildnum.cpp
+#        Project/src/Chapter2-Arithmetic/2-4_Radix-Conversion-for-Output-Operations/num2char.cpp
 #        Project/src/Chapter2-Arithmetic/2-6_Double-precision-Unsigned-Integers/dblulong.cpp
 )
 
